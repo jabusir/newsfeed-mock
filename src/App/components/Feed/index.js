@@ -16,7 +16,7 @@ function Feed() {
             ...idlessPost
         };
         setPosts(produce(prevPostsDraft => {
-            prevPostsDraft.push(post);
+            prevPostsDraft.unshift(post);
         }));
     }
 
