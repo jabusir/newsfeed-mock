@@ -1,0 +1,13 @@
+.FeedForm {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.FeedFormLastRow {
+    display: flex;
+}
+
+.FeedFormLastRow__input {
+    flex: 1;
+}
