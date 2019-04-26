@@ -25,9 +25,9 @@ function FeedInput({ addIdlessPost }) {
 
     return (
         <form className="FeedForm" onSubmit={handleSubmit}>
-            <input type="text" value={urlInput.value} onChange={urlInput.handleChange} />
+        <input type="text" value={urlInput.value} onChange={urlInput.handleChange} placeholder="Enter Image URL" /> 
             <div className="FeedFormLastRow">
-                <input className="FeedFormLastRow__input" type="text" value={titleInput.value} onChange={titleInput.handleChange} />
+                <input className="FeedFormLastRow__input" type="text" value={titleInput.value} onChange={titleInput.handleChange} placeholder="Title" />
                 <button type="submit">New Post</button>
             </div>
         </form>
